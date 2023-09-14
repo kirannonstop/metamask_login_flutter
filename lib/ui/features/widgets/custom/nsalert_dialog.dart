@@ -23,7 +23,7 @@ class NSAlertDialog extends StatelessWidget {
           children: [
             setCustomProgressBar(context),
             const SizedBox(
-              height: 16,
+              height: 20,
             ),
             textWidget
           ],

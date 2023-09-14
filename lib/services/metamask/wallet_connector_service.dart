@@ -4,8 +4,8 @@ import 'package:walletconnect_flutter_v2/apis/sign_api/sign_client.dart';
 
 abstract class WalletConnectorService {
   SignClient get wClient;
-  Future<bool> initialize(); //wallet
-  Future<ConnectResponse?> connect(); //connect
+  Future<bool> initialize();
+  Future<ConnectResponse?> connect();
   Future<SessionData?> authorize(
     ConnectResponse resp,
     String unSignedMessage,

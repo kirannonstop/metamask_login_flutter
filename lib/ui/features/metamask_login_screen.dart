@@ -105,6 +105,7 @@ class _MetaMaskLoginScreenState extends State<MetaMaskLoginScreen> {
     }
     return Text(
       message,
+      style: const TextStyle(fontSize: 18, color: Colors.white),
     );
   }
 }
