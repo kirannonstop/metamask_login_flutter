@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:metamask_login_blog/services/services.dart';
-import 'package:metamask_login_blog/ui/features/metamask_login_screen.dart';
 
 import 'bloc/metamask_auth_bloc.dart';
+import 'ui/features/splash_screen.dart';
 
 void main() {
   initServices();
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const MetaMaskLoginScreen(),
+        home: const SplashScreen(),
       ),
     );
   }
