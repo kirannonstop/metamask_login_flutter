@@ -2,20 +2,13 @@
 <uses-permission android:name="android.permission.INTERNET"/>
 <queries>
   
-        <intent>
-            <action android:name="android.intent.action.VIEW" />
-            <category android:name="android.intent.category.BROWSABLE" />
-            <data android:scheme="https" />
-        </intent>
+     
         <intent>
             <action android:name="android.intent.action.VIEW" />
             <category android:name="android.intent.category.BROWSABLE" />
             <data android:scheme="metamask" android:host = "com.example.metamask_login_blog" />
         </intent>
-        <intent>
-            <action android:name="android.intent.action.VIEW" />
-            <data android:scheme="wc" />
-        </intent>
+     
     </queries> 
     <application
         android:label="metamask_login_blog"
